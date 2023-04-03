@@ -8,10 +8,10 @@ Sans iterative deepening, la stratégie alpha beta est capable d'aller jusqu'à 
 
 Sans l'iterative deepening : <cargo run --release --bin blobwar>
 
-Avec l'iterative deepening : -<cargo build --release>
-                             -<cargo build --release --bin blobwar_iterative_deepening>
-                             -Utiliser comme stratégie : IterativeDeepening::new(IterativeStrategy::AlphaBeta)
-                             -<cargo run --release --bin blobwar>
+Avec l'iterative deepening : - <cargo build --release>
+                             - <cargo build --release --bin blobwar_iterative_deepening>
+                             - Utiliser comme stratégie : IterativeDeepening::new(IterativeStrategy::AlphaBeta)
+                             - <cargo run --release --bin blobwar>
                              
 /!\ L'iterative deepening ne marche pas sur MacOs
 
