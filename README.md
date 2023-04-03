@@ -1,8 +1,9 @@
 # IA Blobwar
 
-Projet réalisé à l'ENSIMAG. 
-Réalisation de toute la partie intelligence artificielle du jeu et optimisations.
-Sans iterative deepening, la stratégie alpha beta est capable d'aller jusqu'à 8 coups d'avances dans un temps raisonnable.
+Projet réalisé à l'ENSIMAG. <br>
+Réalisation de toute la partie intelligence artificielle du jeu et optimisations. <br>
+Sans iterative deepening, la stratégie alpha beta est capable d'aller jusqu'à 8 coups d'avances dans un temps raisonnable. <br>
+Toute le code relatif à la stratégie alpha beta est dans src/strategy/alphabeta.rs
 
 # Pour compiler : 
 
