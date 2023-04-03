@@ -8,7 +8,7 @@ Sans iterative deepening, la stratégie alpha beta est capable d'aller jusqu'à 
 
 Sans l'iterative deepening : <br>
 
-<cargo run --release --bin blobwar>
+- <cargo run --release --bin blobwar>
 
 Avec l'iterative deepening : 
   
