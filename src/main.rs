@@ -14,8 +14,8 @@ pub fn play_one_game() {
     let board = Default::default();
     let mut game = Configuration::new(&board);
     let start = Instant::now();
-    game.battle(IterativeDeepening::new(IterativeStrategy::AlphaBeta), AlphaBeta(5));
-    // game.battle(Greedy(), AlphaBeta(8));
+    // game.battle(IterativeDeepening::new(IterativeStrategy::AlphaBeta), AlphaBeta(5));
+    game.battle(Greedy(), AlphaBeta(8));
     let duration = start.elapsed();
     println!("Time elapsed: {:?}", duration);
 }
