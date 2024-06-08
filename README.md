@@ -20,3 +20,5 @@ Avec l'iterative deepening :
 /!\ L'iterative deepening ne marche pas sur MacOs
 
 Vous pouvez changer de stratégie dans le src/main.rs
+
+![](img/blobwar.gif)
